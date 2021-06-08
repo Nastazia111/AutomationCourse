@@ -123,13 +123,3 @@ console.log(null + 1); // 1
 console.log(undefined + 1); // undefined (undefined становится NaN после численного преобразования)
 
 console.log(" \t \n" - 2); // NaN (строка " \t \n" преобразовывается с число - 0)
-
-/* let a = prompt("Первое число?", 1);
-let b = prompt("Второе число?", 2);
-alert(a + b); // 12
-должно выводить 3 */
-
-let v = +prompt ("Первое число?", 1);
-let m = +prompt("Второе число?", 2);
-
-console.log(v + n);
